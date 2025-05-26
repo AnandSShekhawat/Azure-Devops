@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 # Azure OpenAI GPT-4o configuration
 openai.api_type = "azure"
-openai.api_base = "https://sentiment-app-resource.services.ai.azure.com/"
+openai.api_base = "Add your Azure OpenAI endpoint here"  # e.g., "https://<your-resource-name>.openai.azure.com/"
 openai.api_version = "2024-02-15-preview"
-openai.api_key = "2RJVGeUEbKBoCzKuC3dWvmp0uNEMO6GloERLOQdmJphjOY0sOJT9JQQJ99BEACHYHv6XJ3w3AAAAACOGei4V"
+openai.api_key = "Add your Azure OpenAI API key here"
 
 DEPLOYMENT_NAME = "sentiment-app-gpt4o"
 
